@@ -1,4 +1,4 @@
-fonction tri()
+fonction tri():tableau
 
     entier: tableauA[],tableauB[]tableauFussion[],tailleTabA,tailleTabB,tailleTabFussion,i,j,m,temp
     debut
@@ -41,14 +41,15 @@ fonction tri()
         finpour
 
                return tableauFussion
-fin
+    fin
+finfonction
 
 B) la complexité
 temps O(n3)
 espace O(1)i,j,m,temp
 ////////////////////////////////////////////////////////////////////////////////////////
 
-fonction cercle():
+fonction cercle():boleen
     entier:x_cercleA,y_cercleA,r_cercleA,x_cercleB,y_cercleB,r_cercleB,
 
 
@@ -75,7 +76,8 @@ fonction cercle():
             return vrai
         finsi
 
-
+    fin
+finfonction
 /////
 B) le complexité
 O(n)
